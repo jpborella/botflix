@@ -1,0 +1,37 @@
+@media (max-width: 600px) {
+  .movies-grid {
+    gap: 24px;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .robot-image {
+    width: 80px;
+    height: 80px;
+  }
+
+  .brand-title {
+    font-size: 64px;
+  }
+
+  .brand-subtitle {
+    font-size: 19px;
+  }
+
+  .search-card {
+    padding: 48px;
+  }
+}
+
+@media (max-width: 900px) {
+  .movies-grid {
+    gap: 19px;
+  }
+
+  .movie-card {
+    width: 90vw;
+    max-width: 400px;
+  }
+}
